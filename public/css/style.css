@@ -1,0 +1,247 @@
+body{
+    background-image: url("../img/bg-branco_opaco.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.imgandroid{
+    position: relative;
+    transition: 0.6s;    
+}
+
+.imgpc{
+    position: relative;
+    transition: 0.6s;    
+}
+
+.imgios{
+    position: relative;
+    transition: 0.6s;    
+}
+
+.imgandroid:hover{
+    transform:scale(1.15) rotate(-5deg);
+    transition: 0.8s;    
+}
+
+.imgpc:hover{
+    transform:scale(1.15);
+    transition: 0.8s;    
+}
+
+.imgios:hover{
+    transform:scale(1.15) rotate(5deg);
+    transition: 0.8s;    
+}
+
+.model{
+    background-image: url(../img/cyan2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 2rem;
+}
+
+.margem{
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.margemplan{
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.margemfun{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.center{
+    text-align: center;
+}
+
+h2.center{
+    font-size: 250%;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2.branco{
+    font-size: 250%;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0px 3px rgb(88, 88, 88);
+}
+h2.sub{
+    font-size: 250%;
+    font-weight: 700;
+    text-align: left
+}
+
+h2.plano{
+    font-size: 200%;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 20px;
+}
+
+h2.contato{
+    font-size: 220%;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(255, 248, 181);
+    text-shadow: 0px 0px 4px rgb(58, 58, 58);
+}
+
+h1.destaque{
+    font-size: 300%;
+    font-weight: 700;
+}
+
+h1.destaque2{
+    font-size: 260%;
+    font-weight: 700;
+}
+
+h1.carousel{
+    text-shadow: 0px 0px 7px black;
+    color: cyan;
+    font-weight: 700;
+}
+
+h1.contato{
+    text-shadow: -1px 0px 4px rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 300%;
+}
+
+h5.comentario{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 180%;
+
+}
+
+h5.sub{
+    color: rgb(85, 85, 85);
+    text-align: left;
+    line-height: 33px;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 125%;
+
+}
+
+h5.funcao{
+    color: #00e5ff;
+    
+}
+
+h3.sub{
+    color: rgb(114, 114, 114);
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 160%;
+}
+
+h3.azul{
+    color: #00e5ff
+}
+
+.rodape {
+    background-color: rgb(34, 48, 56);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 50px 10px rgb(0, 0, 0);
+    font-weight: 700;
+    line-height: 15px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 1cm;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bgcontato{
+    background-image: url("../img/bg-comercial.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.message{
+    animation: is-bouncing 1.2s ease alternate infinite;
+    place-items: center;
+
+}
+
+.seta{
+    animation: is-bouncing2 1.2s ease alternate infinite;
+}
+
+@keyframes is-bouncing{
+    to{
+        transform: translateY(20px);
+    }
+}
+
+@keyframes is-bouncing2{
+    to{
+        transform: translateY(10px);
+    }
+}
+
+.boxazul{
+    box-shadow: 0px 0px 30px 5px #00e5ff91;
+    background-color: rgb(37, 45, 51);
+    border-radius: 20px;
+}
+
+.boxsombra{
+    box-shadow: 0px 0px 15px 2px #818181;
+    background-color: rgb(39, 50, 59);
+    border-radius: 12px;
+}
+
+.funcionalidades{
+    background-image: url(../img/bg_funcionalidades.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.icone{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.pfun{
+    font-size: 115%;
+    font-weight: 500;
+}
+
+.topicos{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.pplano{
+    font-weight: 500;
+}
